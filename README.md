@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/9571025?v=4" alt="JMDKH poster">
+  <img src="https://opengraph.githubassets.com/b277d5902defd4003ea28f56be8658ed302829a656c6cc1f6f873afa821c58fe/junedkh/jmdkh-mltb" alt="JMDKH poster">
 </p>
 
 Instructions for Heroku

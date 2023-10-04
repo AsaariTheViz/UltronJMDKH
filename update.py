@@ -33,7 +33,7 @@ if DATABASE_URL:
 
 UPSTREAM_BRANCH = 'jmdkh'
 
-if UPSTREAM_REPO := 'https://github.com/GitXBot101/jmdkh-luna':
+if UPSTREAM_REPO := 'https://github.com/GitXBot101/JMDKH-SourceCode':
     if ospath.exists('.git'):
         srun(["rm", "-rf", ".git"])
 

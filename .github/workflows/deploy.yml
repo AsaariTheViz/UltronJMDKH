@@ -12,18 +12,10 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: ${{secrets.HEROKU_APP_NAME}}
           heroku_email: ${{secrets.HEROKU_EMAIL}}
-          OWNER_ID: ${{secrets.OWNER_ID}}
-          TELEGRAM_API: ${{secrets.TELEGRAM_API}}
-          TELEGRAM_HASH: ${{secrets.TELEGRAM_HASH}}
-          DATABASE_URL: ${{secrets.DATABASE_URL}}
-          BOT_TOKEN: ${{secrets.BOT_TOKEN}}
+          CONFIG_FILE_URL: ${{secrets.CONFIG_FILE_URL}}
           usedocker: true
           docker_heroku_process_type: web
           stack: "container"
           region: "eu"
         env:
-          HD_OWNER_ID: ${{secrets.OWNER_ID}}
-          HD_TELEGRAM_API: ${{secrets.TELEGRAM_API}}
-          HD_TELEGRAM_HASH: ${{secrets.TELEGRAM_HASH}}
-          HD_DATABASE_URL: ${{secrets.DATABASE_URL}}
-          HD_BOT_TOKEN: ${{secrets.BOT_TOKEN}}
+          HD_CONFIG_FILE_URL: ${{secrets.CONFIG_FILE_URL}}
